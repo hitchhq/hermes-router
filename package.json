@@ -1,8 +1,10 @@
 {
   "name": "hermes-router",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Router for hermesjs",
   "main": "router.js",
+  "repository": "https://github.com/hitchhq/hermes-router.git",
+  "bugs": "https://github.com/hitchhq/hermes-router/issues",
   "keywords": [
     "hermes",
     "hermesjs",
