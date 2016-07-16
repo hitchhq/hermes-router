@@ -1,5 +1,5 @@
 {
-  "name": "hermes-router",
+  "name": "hermesjs-router",
   "version": "1.0.0",
   "description": "Router for hermesjs",
   "main": "router.js",
