@@ -3,6 +3,7 @@ function HermesRouter () {
 
   this.use = addMiddleware.bind(this, 'all');
   this.in = { client: {}, broker: {} };
+  this.from = { client: {}, broker: {} };
   this.in.client.use = addMiddleware.bind(this, 'client');
   this.in.broker.use = addMiddleware.bind(this, 'broker');
   this.from.client.use = addMiddleware.bind(this, 'client');
